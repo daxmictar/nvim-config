@@ -1,0 +1,44 @@
+{
+  "plugins": {
+    "blink.cmp": {
+      "rev": "b650e976a927be6b46487a0a610b75af111376c5",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "colorscheme.oxocarbon.nvim": {
+      "rev": "9f85f6090322f39b11ae04a343d4eb9d12a86897",
+      "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
+    },
+    "lazydev.nvim": {
+      "rev": "5231c62aa83c2f8dc8e7ba957aa77098cda1257d",
+      "src": "https://github.com/folke/lazydev.nvim.git"
+    },
+    "lspconfig.nvim": {
+      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
+      "src": "https://github.com/neovim/nvim-lspconfig.git"
+    },
+    "mini.pick": {
+      "rev": "8521fe21df86e08d9e4b3c3f3a7d50e47954e1af",
+      "src": "https://github.com/echasnovski/mini.pick.git"
+    },
+    "nvim-lspconfig": {
+      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
+      "src": "https://github.com/neovim/nvim-lspconfig.git"
+    },
+    "nvim-treesitter": {
+      "rev": "a8845121f063458ef23df86e73f16bbee71ec67b",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "oil.nvim": {
+      "rev": "0fcc83805ad11cf714a949c98c605ed717e0b83e",
+      "src": "https://github.com/stevearc/oil.nvim.git"
+    },
+    "oxocarbon.nvim": {
+      "rev": "9f85f6090322f39b11ae04a343d4eb9d12a86897",
+      "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
+    },
+    "treesitter.nvim": {
+      "rev": "a8845121f063458ef23df86e73f16bbee71ec67b",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    }
+  }
+}
