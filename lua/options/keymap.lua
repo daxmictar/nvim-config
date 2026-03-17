@@ -51,12 +51,3 @@ set(
 set("n", "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 set("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
--- For opening oil
-set(
-  "n",
-  "<leader>e",
-  "<CMD>Oil<CR>",
-  { desc = "Open the file [e]xplorer in the current working directory." }
-)
-
-

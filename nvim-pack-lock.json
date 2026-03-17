@@ -1,32 +1,32 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "b650e976a927be6b46487a0a610b75af111376c5",
+      "rev": "19c25fa5e95f1387f53b461a425ad2129ed1d681",
       "src": "https://github.com/Saghen/blink.cmp"
     },
-    "colorscheme.oxocarbon.nvim": {
-      "rev": "9f85f6090322f39b11ae04a343d4eb9d12a86897",
-      "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
+    "fidget.nvim": {
+      "rev": "7fa433a83118a70fe24c1ce88d5f0bd3453c0970",
+      "src": "https://github.com/j-hui/fidget.nvim"
     },
-    "lazydev.nvim": {
-      "rev": "5231c62aa83c2f8dc8e7ba957aa77098cda1257d",
-      "src": "https://github.com/folke/lazydev.nvim.git"
+    "neoscroll.nvim": {
+      "rev": "c8d29979cb0cb3a2437a8e0ae683fd82f340d3b8",
+      "src": "https://github.com/karb94/neoscroll.nvim"
     },
-    "lspconfig.nvim": {
-      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
-      "src": "https://github.com/neovim/nvim-lspconfig.git"
-    },
-    "mini.pick": {
-      "rev": "8521fe21df86e08d9e4b3c3f3a7d50e47954e1af",
-      "src": "https://github.com/echasnovski/mini.pick.git"
+    "nfnl": {
+      "rev": "f39a7ec6fe0ace2b2ea108ce04d954549e36c76d",
+      "src": "https://github.com/Olical/nfnl"
     },
     "nvim-lspconfig": {
-      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
+      "rev": "4d0724be90b633ddce51b328a631060e6acd7d66",
       "src": "https://github.com/neovim/nvim-lspconfig.git"
     },
     "nvim-treesitter": {
-      "rev": "a8845121f063458ef23df86e73f16bbee71ec67b",
+      "rev": "2f5d4c3f3c675962242096bcc8e586d76dd72eb2",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "nvim-web-devicons": {
+      "rev": "d7462543c9e366c0d196c7f67a945eaaf5d99414",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
       "rev": "0fcc83805ad11cf714a949c98c605ed717e0b83e",
@@ -35,10 +35,6 @@
     "oxocarbon.nvim": {
       "rev": "9f85f6090322f39b11ae04a343d4eb9d12a86897",
       "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
-    },
-    "treesitter.nvim": {
-      "rev": "a8845121f063458ef23df86e73f16bbee71ec67b",
-      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     }
   }
 }

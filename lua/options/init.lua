@@ -1,4 +1,5 @@
 require "options.autocommand"
+require "options.usercommand"
 require "options.keymap"
 require "options.lsp"
 

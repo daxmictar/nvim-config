@@ -30,7 +30,13 @@
           devShells = {
             default = pkgs.mkShell.override { stdenv = pkgs.clangStdenv; } {
               packages = with pkgs; [
+			  	# fennel packages
+			  	luajitPackages.fennel
+				fennel-ls
+				fnlfmt
+				# rust
 			  	rustToolchain
+				# c + buildsystem
                 clang-tools
                 cmake
               ];
