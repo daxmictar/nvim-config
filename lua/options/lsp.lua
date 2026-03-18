@@ -1,27 +1,15 @@
-vim.lsp.config('clangd', {
-	cmd = {
-		"clangd",
-		"--clang-tidy",
-		"--background-index",
-		"--log=verbose",
-		"--query-driver=/nix/store/*-clang-wrapper-*/bin/clang*",
-	},
-	root_markers = {
-		'.clangd',
-		'.clang-tidy',
-		'.clang-format',
-		'compile_commands.json'
-	}
-})
-
 vim.lsp.enable({
 	'clangd',
+	'cssls',
+	'html',
 	'lua_ls',
 	'nil_ls',
+	'nushell',
+	'ruff', -- python formatter / lsp
 	'rust_analyzer',
-	-- python
-	'ty',
-	'ruff'
+	'svelte',
+	'ty', -- python typechecker
+	'ts_ls',
 })
 
 vim.api.nvim_create_autocmd("LspAttach", {
