@@ -21,7 +21,10 @@ require('blink.cmp').setup({
 	},
 
 	completion = {
-		documentation = { auto_show = false }
+		documentation = { auto_show = false },
+		ghost_text = {
+			enabled = true,
+		},
 	},
 
 	sources = {
