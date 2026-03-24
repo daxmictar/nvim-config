@@ -23,3 +23,10 @@ vim.api.nvim_create_autocmd("FileChangedShellPost", {
     vim.notify("File changed on disk. Buffer reloaded.", vim.log.levels.WARN)
   end,
 })
+
+-- use bash internally, but nu interactively
+vim.api.nvim_create_autocmd("TermOpen", {
+  callback = function()
+    vim.opt_local.shell = "nu"
+  end,
+})
