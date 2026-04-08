@@ -39,6 +39,7 @@
 				# c + buildsystem
                 clang-tools
                 cmake
+				gnumake
               ];
             };
           };
