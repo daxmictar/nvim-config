@@ -8,9 +8,9 @@
       "rev": "384f304c8b04664c9e0091fbfb3923c5f97c1bcf",
       "src": "https://github.com/catppuccin/nvim"
     },
-    "fff.nvim": {
-      "rev": "dd56a3a8a8a5a85522badaf6485f28c8f7a7c840",
-      "src": "https://github.com/dmtrKovalenko/fff.nvim"
+    "colorscheme.oxocarbon.nvim": {
+      "rev": "9f85f6090322f39b11ae04a343d4eb9d12a86897",
+      "src": "ssh://git@github.com/nyoom-engineering/oxocarbon.nvim"
     },
     "fidget.nvim": {
       "rev": "7fa433a83118a70fe24c1ce88d5f0bd3453c0970",
@@ -19,6 +19,18 @@
     "gitsigns.nvim": {
       "rev": "7c4faa3540d0781a28588cafbd4dd187a28ac6e3",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "lazydev.nvim": {
+      "rev": "e28ce52fc7ff79fcb76f0e79ee6fb6182fca90b9",
+      "src": "ssh://git@github.com/folke/lazydev.nvim.git"
+    },
+    "lspconfig.nvim": {
+      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
+      "src": "ssh://git@github.com/neovim/nvim-lspconfig.git"
+    },
+    "mini.pick": {
+      "rev": "96ee37d07043aeed90ae6ae32733b2d0db8f1c13",
+      "src": "ssh://git@github.com/echasnovski/mini.pick.git"
     },
     "neoscroll.nvim": {
       "rev": "c8d29979cb0cb3a2437a8e0ae683fd82f340d3b8",
@@ -51,6 +63,10 @@
     "oxocarbon.nvim": {
       "rev": "9f85f6090322f39b11ae04a343d4eb9d12a86897",
       "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
+    },
+    "treesitter.nvim": {
+      "rev": "a8845121f063458ef23df86e73f16bbee71ec67b",
+      "src": "ssh://git@github.com/nvim-treesitter/nvim-treesitter"
     },
     "which-key.nvim": {
       "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
